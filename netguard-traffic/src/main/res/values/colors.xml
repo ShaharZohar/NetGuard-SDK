@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_success">#4CAF50</color>
+    <color name="status_redirect">#FF9800</color>
+    <color name="status_client_error">#F44336</color>
+    <color name="status_server_error">#9C27B0</color>
+    <color name="status_pending">#9E9E9E</color>
+</resources>
