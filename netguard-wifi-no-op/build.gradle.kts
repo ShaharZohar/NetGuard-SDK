@@ -10,7 +10,6 @@ android {
     defaultConfig { minSdk = 24 }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
-    publishing { singleVariant("release") { withSourcesJar(); withJavadocJar() } }
 }
 
 dependencies {
@@ -19,7 +18,6 @@ dependencies {
 }
 
 mavenPublishing {
-    publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
     coordinates("io.github.shaharzohar", "netguard-wifi-no-op", project.version.toString())
     pom {

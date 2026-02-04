@@ -136,7 +136,7 @@ object NetGuard {
     /**
      * Returns the application context.
      */
-    internal fun getContext(): Context {
+    fun getContext(): Context {
         checkInitialized()
         return applicationContext
     }

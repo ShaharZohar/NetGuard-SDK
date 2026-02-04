@@ -22,10 +22,6 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-
-    publishing {
-        singleVariant("release") { withSourcesJar(); withJavadocJar() }
-    }
 }
 
 dependencies {
@@ -38,7 +34,6 @@ dependencies {
 }
 
 mavenPublishing {
-    publishToMavenCentral(com.vanniktech.maven.publish.SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
     coordinates("io.github.shaharzohar", "netguard-wifi", project.version.toString())
     pom {
