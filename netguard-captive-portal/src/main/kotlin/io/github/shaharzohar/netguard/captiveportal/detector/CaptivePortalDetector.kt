@@ -155,9 +155,11 @@ class CaptivePortalDetector(
      * @return [CaptivePortalState] based on probe results
      */
     suspend fun performHttpProbe(): CaptivePortalState = withContext(dispatcher) {
-        for (probeUrl in config.probeUrls) {
+        var lastError: Exception? = null
+
+        for (url in config.probeUrls) {
             try {
-                val result = probeUrl(probeUrl)
+                val result = probeUrl(url)
                 if (result.isCaptivePortal) {
                     return@withContext CaptivePortalState.Detected(
                         portalUrl = result.redirectUrl ?: result.probeUrl,
@@ -165,12 +167,20 @@ class CaptivePortalDetector(
                         redirectUrl = result.redirectUrl
                     )
                 }
+                // Probe succeeded with no portal — network is clear
+                return@withContext CaptivePortalState.Clear
             } catch (e: Exception) {
-                NetGuard.logger.w(TAG, "Probe failed for $probeUrl", e)
+                lastError = e
+                NetGuard.logger.w(TAG, "Probe failed for $url", e)
                 // Continue to next URL
             }
         }
-        CaptivePortalState.Clear
+
+        // All probes failed — likely blocked by a captive portal or no internet
+        CaptivePortalState.Error(
+            message = "All probe URLs failed — possible captive portal blocking connections",
+            cause = lastError
+        )
     }
 
     /**
@@ -210,27 +220,37 @@ class CaptivePortalDetector(
                     )
                 }
 
-                // Check for 200 with unexpected content (some portals serve HTML directly)
-                if (responseCode == HttpURLConnection.HTTP_OK && body != null) {
-                    // generate_204 should return empty or no content
-                    if (body.isNotEmpty() && !body.contains("success", ignoreCase = true)) {
-                        val wisprData = if (config.enableWisprParsing) {
-                            wisprParser.parse(body)
-                        } else null
-
-                        return@withContext ProbeResult.captivePortal(
-                            probeUrl = url,
-                            responseCode = responseCode,
-                            redirectUrl = null,
-                            responseBody = body,
-                            wisprData = wisprData,
-                            durationMs = durationMs
-                        )
-                    }
+                // 204 No Content = expected success response (no captive portal)
+                if (responseCode == HttpURLConnection.HTTP_NO_CONTENT) {
+                    return@withContext ProbeResult.success(url, durationMs)
                 }
 
-                // 204 No Content = success (no captive portal)
-                ProbeResult.success(url, durationMs)
+                // HTTP 200 from a generate_204 endpoint is unexpected — indicates
+                // a captive portal intercepting the request (even with empty body)
+                if (responseCode == HttpURLConnection.HTTP_OK) {
+                    val wisprData = if (config.enableWisprParsing && !body.isNullOrEmpty()) {
+                        wisprParser.parse(body)
+                    } else null
+
+                    return@withContext ProbeResult.captivePortal(
+                        probeUrl = url,
+                        responseCode = responseCode,
+                        redirectUrl = null,
+                        responseBody = body,
+                        wisprData = wisprData,
+                        durationMs = durationMs
+                    )
+                }
+
+                // Any other unexpected response code indicates network interference
+                ProbeResult.captivePortal(
+                    probeUrl = url,
+                    responseCode = responseCode,
+                    redirectUrl = null,
+                    responseBody = body,
+                    wisprData = null,
+                    durationMs = durationMs
+                )
             }
         } catch (e: Exception) {
             NetGuard.logger.e(TAG, "Error probing $url", e)

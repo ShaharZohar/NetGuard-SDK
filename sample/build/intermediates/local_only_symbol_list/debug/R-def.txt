@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id checkCaptivePortalButton
+id checkDnsHijackButton
+id checkVpnButton
+id checkWifiButton
+id connectionQualityButton
+id exportHarButton
+id makeRequestButton
+id measureLatencyButton
+id sdkVersionText
+id securityScanButton
+id statusText
+id viewTrafficLogsButton
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.NetGuardSample

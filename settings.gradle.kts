@@ -31,6 +31,9 @@ include(":netguard-wifi-no-op")
 // Integration modules
 include(":netguard-okhttp")
 
+// Security module
+include(":netguard-security")
+
 // BOM for version alignment
 include(":netguard-bom")
 

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.github.shaharzohar.netguard.sample-mergeDebugResources-43:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/zull/.gradle/caches/transforms-3/16fe8e0dd29f3126e8d84141d33420a9/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -29,7 +29,8 @@ data class NetGuardConfig internal constructor(
     val enableAutoNetworkMonitoring: Boolean,
     val captivePortalConfig: CaptivePortalConfig,
     val trafficConfig: TrafficConfig,
-    val wifiConfig: WifiConfig
+    val wifiConfig: WifiConfig,
+    val securityConfig: SecurityConfig
 ) {
 
     /**
@@ -59,6 +60,7 @@ data class NetGuardConfig internal constructor(
         private var captivePortalConfig: CaptivePortalConfig = CaptivePortalConfig.DEFAULT
         private var trafficConfig: TrafficConfig = TrafficConfig.DEFAULT
         private var wifiConfig: WifiConfig = WifiConfig.DEFAULT
+        private var securityConfig: SecurityConfig = SecurityConfig.DEFAULT
 
         /**
          * Configure captive portal detection settings.
@@ -81,6 +83,13 @@ data class NetGuardConfig internal constructor(
             wifiConfig = WifiConfig.Builder().apply(block).build()
         }
 
+        /**
+         * Configure security analysis settings.
+         */
+        fun security(block: SecurityConfig.Builder.() -> Unit) {
+            securityConfig = SecurityConfig.Builder().apply(block).build()
+        }
+
         internal fun build(): NetGuardConfig = NetGuardConfig(
             isDebugMode = isDebugMode,
             logger = logger,
@@ -88,7 +97,8 @@ data class NetGuardConfig internal constructor(
             enableAutoNetworkMonitoring = enableAutoNetworkMonitoring,
             captivePortalConfig = captivePortalConfig,
             trafficConfig = trafficConfig,
-            wifiConfig = wifiConfig
+            wifiConfig = wifiConfig,
+            securityConfig = securityConfig
         )
     }
 
@@ -185,17 +195,61 @@ data class TrafficConfig internal constructor(
 data class WifiConfig internal constructor(
     val enableScanResults: Boolean,
     val enableSignalStrengthMonitoring: Boolean,
-    val signalStrengthIntervalMs: Long
+    val signalStrengthIntervalMs: Long,
+    val qualityMonitorIntervalMs: Long,
+    val qualityProbeHost: String,
+    val qualityProbeSamples: Int
 ) {
     class Builder {
         var enableScanResults: Boolean = true
         var enableSignalStrengthMonitoring: Boolean = true
         var signalStrengthIntervalMs: Long = 5_000L
+        var qualityMonitorIntervalMs: Long = 10_000L
+        var qualityProbeHost: String = "8.8.8.8"
+        var qualityProbeSamples: Int = 5
 
         internal fun build() = WifiConfig(
             enableScanResults = enableScanResults,
             enableSignalStrengthMonitoring = enableSignalStrengthMonitoring,
-            signalStrengthIntervalMs = signalStrengthIntervalMs
+            signalStrengthIntervalMs = signalStrengthIntervalMs,
+            qualityMonitorIntervalMs = qualityMonitorIntervalMs,
+            qualityProbeHost = qualityProbeHost,
+            qualityProbeSamples = qualityProbeSamples
+        )
+    }
+
+    companion object {
+        val DEFAULT = Builder().build()
+    }
+}
+
+/**
+ * Configuration for network security analysis.
+ */
+data class SecurityConfig internal constructor(
+    val connectionTimeoutMs: Int,
+    val enableMixedContentDetection: Boolean,
+    val certificatePins: Map<String, Set<String>>
+) {
+    class Builder {
+        var connectionTimeoutMs: Int = 10_000
+        var enableMixedContentDetection: Boolean = true
+        var certificatePins: Map<String, Set<String>> = emptyMap()
+
+        /**
+         * Add certificate pins for a hostname.
+         *
+         * @param hostname The hostname to pin
+         * @param pins SHA-256 fingerprints (format: "AA:BB:CC:...")
+         */
+        fun pinCertificate(hostname: String, vararg pins: String) {
+            certificatePins = certificatePins + (hostname to pins.toSet())
+        }
+
+        internal fun build() = SecurityConfig(
+            connectionTimeoutMs = connectionTimeoutMs,
+            enableMixedContentDetection = enableMixedContentDetection,
+            certificatePins = certificatePins
         )
     }
 

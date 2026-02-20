@@ -121,7 +121,11 @@ class WifiMonitor(private val context: Context) {
         val network = connectivityManager.activeNetwork ?: return null
         val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return null
         val wifiInfo = capabilities.transportInfo as? WifiInfo ?: return null
-        return wifiInfo.toConnectionInfo()
+        // getNetworkCapabilities() always redacts SSID/BSSID on Android 12+, even with
+        // ACCESS_FINE_LOCATION. Use WifiManager.connectionInfo to get the actual SSID.
+        @Suppress("DEPRECATION")
+        val ssid = wifiManager?.connectionInfo?.ssid?.removeSurrounding("\"")
+        return wifiInfo.toConnectionInfo().copy(ssid = ssid)
     }
 
     /**

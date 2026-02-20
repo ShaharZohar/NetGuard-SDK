@@ -5,6 +5,7 @@ import io.github.shaharzohar.netguard.core.config.NetGuardConfig
 import io.github.shaharzohar.netguard.core.internal.NetGuardServiceLocator
 import io.github.shaharzohar.netguard.core.logging.NetGuardLogger
 import io.github.shaharzohar.netguard.core.logging.DefaultLogger
+import io.github.shaharzohar.netguard.core.vpn.VpnDetector
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -139,6 +140,18 @@ object NetGuard {
     fun getContext(): Context {
         checkInitialized()
         return applicationContext
+    }
+
+    /**
+     * Creates a new [VpnDetector] instance for VPN detection and analysis.
+     *
+     * @return A configured VpnDetector
+     * @throws IllegalStateException if SDK is not initialized
+     * @since 1.1.0
+     */
+    fun getVpnDetector(): VpnDetector {
+        checkInitialized()
+        return VpnDetector(applicationContext)
     }
 
     private fun checkInitialized() {

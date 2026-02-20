@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="io.github.shaharzohar.netguard.core" >
+5
+6    <uses-sdk android:minSdkVersion="24" />
+7
+8    <!-- Network permissions -->
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:6:5-67
+9-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:6:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:7:5-79
+10-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:7:22-76
+11
+12    <application>
+12-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:9:5-20:19
+13
+14        <!-- AndroidX App Startup for zero-config initialization -->
+15        <provider
+15-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:11:9-19:20
+16            android:name="androidx.startup.InitializationProvider"
+16-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:12:13-67
+17            android:authorities="${applicationId}.androidx-startup"
+17-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:13:13-68
+18            android:exported="false"
+18-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:14:13-37
+19            tools:node="merge" >
+19-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:15:13-31
+20            <meta-data
+20-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:16:13-18:52
+21                android:name="io.github.shaharzohar.netguard.core.internal.NetGuardInitializer"
+21-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:17:17-96
+22                android:value="androidx.startup" />
+22-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-core/src/main/AndroidManifest.xml:18:17-49
+23        </provider>
+24    </application>
+25
+26</manifest>

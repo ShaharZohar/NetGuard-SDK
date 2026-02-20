@@ -18,6 +18,7 @@ android {
 dependencies {
     api(project(":netguard-core-no-op"))
     implementation(libs.kotlin.stdlib)
+    implementation(libs.bundles.coroutines)
     implementation(libs.okhttp)
 }
 

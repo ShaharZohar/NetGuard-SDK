@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color status_client_error
+color status_pending
+color status_redirect
+color status_server_error
+color status_success
+drawable ic_back
+drawable ic_delete
+drawable ic_share
+id action_clear
+id action_export_har
+id contentView
+id durationText
+id emptyView
+id hostText
+id methodText
+id pathText
+id recyclerView
+id statusText
+id tabLayout
+id timeText
+id toolbar
+layout activity_traffic_log
+layout activity_transaction_detail
+layout item_transaction
+menu menu_traffic_log
+style Theme.NetGuard.Traffic
+xml netguard_file_paths

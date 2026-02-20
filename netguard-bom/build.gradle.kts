@@ -18,6 +18,7 @@ dependencies {
         api(project(":netguard-wifi"))
         api(project(":netguard-wifi-no-op"))
         api(project(":netguard-okhttp"))
+        api(project(":netguard-security"))
     }
 }
 

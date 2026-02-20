@@ -1,0 +1,43 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.github.shaharzohar.netguard.traffic" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.INTERNET" />
+7-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:4:5-67
+7-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:4:22-64
+8
+9    <application>
+9-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:6:5-22:19
+10        <activity
+10-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:7:9-11:61
+11            android:name="io.github.shaharzohar.netguard.traffic.ui.TrafficLogActivity"
+11-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:8:13-50
+12            android:exported="false"
+12-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:9:13-37
+13            android:label="Network Traffic"
+13-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:10:13-44
+14            android:theme="@style/Theme.NetGuard.Traffic" />
+14-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:11:13-58
+15
+16        <provider
+16-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:13:9-21:20
+17            android:name="androidx.core.content.FileProvider"
+17-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:14:13-62
+18            android:authorities="${applicationId}.netguard.fileprovider"
+18-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:15:13-73
+19            android:exported="false"
+19-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:16:13-37
+20            android:grantUriPermissions="true" >
+20-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:17:13-47
+21            <meta-data
+21-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:18:13-20:63
+22                android:name="android.support.FILE_PROVIDER_PATHS"
+22-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:19:17-67
+23                android:resource="@xml/netguard_file_paths" />
+23-->/home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/src/main/AndroidManifest.xml:20:17-60
+24        </provider>
+25    </application>
+26
+27</manifest>

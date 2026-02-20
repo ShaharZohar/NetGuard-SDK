@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.appbar.MaterialToolbar
 import io.github.shaharzohar.netguard.traffic.R
+import io.github.shaharzohar.netguard.traffic.export.HarShareHelper
 import io.github.shaharzohar.netguard.traffic.models.HttpTransaction
 import io.github.shaharzohar.netguard.traffic.storage.TransactionRepository
 import kotlinx.coroutines.flow.collectLatest
@@ -44,12 +45,14 @@ class TrafficLogActivity : AppCompatActivity() {
     private lateinit var emptyView: TextView
     private lateinit var adapter: TransactionAdapter
     private lateinit var repository: TransactionRepository
+    private lateinit var harShareHelper: HarShareHelper
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_traffic_log)
 
         repository = TransactionRepository.getInstance(applicationContext)
+        harShareHelper = HarShareHelper(applicationContext)
 
         setupToolbar()
         setupRecyclerView()
@@ -62,6 +65,12 @@ class TrafficLogActivity : AppCompatActivity() {
             setNavigationOnClickListener { finish() }
             setOnMenuItemClickListener { menuItem ->
                 when (menuItem.itemId) {
+                    R.id.action_export_har -> {
+                        lifecycleScope.launch {
+                            harShareHelper.shareAll()
+                        }
+                        true
+                    }
                     R.id.action_clear -> {
                         lifecycleScope.launch {
                             repository.clearAll()

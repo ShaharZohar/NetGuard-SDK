@@ -1,0 +1,425 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [:netguard-okhttp] /home/zull/Desktop/Workspace/netguard-sdk/netguard-okhttp/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] /home/zull/.gradle/caches/transforms-3/92279dec12927db4e902e343c4493f01/transformed/viewbinding-8.2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:netguard-security] /home/zull/Desktop/Workspace/netguard-sdk/netguard-security/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.material:material:1.11.0] /home/zull/.gradle/caches/transforms-3/0b3ac08e34365a77eb224fd5715f1b87/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zull/.gradle/caches/transforms-3/6818d493069ea4d592a832b629ab4130/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zull/.gradle/caches/transforms-3/4e60907f28aff8379ef554c06e002b7f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zull/.gradle/caches/transforms-3/16fe8e0dd29f3126e8d84141d33420a9/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zull/.gradle/caches/transforms-3/0cb337fab43935441238de1a2625e752/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zull/.gradle/caches/transforms-3/c05f0ce9dfcff173cdd0c597b9e0dfeb/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zull/.gradle/caches/transforms-3/2efe9219e95c572b1931a90594f6cc18/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zull/.gradle/caches/transforms-3/9a4eaff3ad878b522e580dee72205120/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/zull/.gradle/caches/transforms-3/cf8049a2db34bee91a30c103bdecdb43/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zull/.gradle/caches/transforms-3/36c3ad81f8d8076d3a6123eaf69a762a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zull/.gradle/caches/transforms-3/4d061f87c5fdc30868c9e0ccde373879/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zull/.gradle/caches/transforms-3/6cd07588cd929e68e3433aac9795fb58/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/zull/.gradle/caches/transforms-3/050b6ddbca88667649ff5c1e4c0e7b05/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zull/.gradle/caches/transforms-3/045885920a5f28ecd8ea88e40fd81d9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zull/.gradle/caches/transforms-3/4f7d6c8c48b88170f9f11f68fe5f758d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zull/.gradle/caches/transforms-3/296f37aaddf10b481fde6e2d010ba526/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zull/.gradle/caches/transforms-3/7e09c99b9a51e6a663351ef91fac6e5f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/zull/.gradle/caches/transforms-3/2764de394946a894b3ab5baaf5f83be4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/zull/.gradle/caches/transforms-3/1f39ee7e8c75aa6b3e4397ad039c609f/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zull/.gradle/caches/transforms-3/2c0262ff9305d9c8462a4780fd606235/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zull/.gradle/caches/transforms-3/c9eb4eddbf88644ce571787444304295/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/1652508dff11390d3bfbe68190d13926/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/zull/.gradle/caches/transforms-3/a47b27427c4336e997d9febd32150c19/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/zull/.gradle/caches/transforms-3/813011cc99bf333157c65649bfae415c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/zull/.gradle/caches/transforms-3/47b0b951f276f7dc04597017cf73e8ce/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/zull/.gradle/caches/transforms-3/3f542b6eeb0079fb40d5fd645823a9d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/55fe634019bba7c4292bfe4453f9c96f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/0c83b55a74954b63a59cd10ee911dd13/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/zull/.gradle/caches/transforms-3/12fe3fde419c176cc1231071a8cc7015/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zull/.gradle/caches/transforms-3/1136699dd1a812a4104f43550dbf3d01/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/zull/.gradle/caches/transforms-3/bfd83cfac49f200a754f51f1fe45b6aa/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zull/.gradle/caches/transforms-3/0495352de76a2d9147877105871a1763/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zull/.gradle/caches/transforms-3/b02562dc9043d486e367c11a996576dc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zull/.gradle/caches/transforms-3/38ea6c2407964a2a8436b8a92ea73f32/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zull/.gradle/caches/transforms-3/b24d3d0537cfa7f807072337ed89fc78/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/zull/.gradle/caches/transforms-3/212dc1a14704c9083ace685d452d0a43/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/zull/.gradle/caches/transforms-3/5c207f35795866511b10293061f18276/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zull/.gradle/caches/transforms-3/e2d3d7cedae91e984a7997fa17f17de3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zull/.gradle/caches/transforms-3/337e8c5f1bbf78cad4eae504c5d835e7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zull/.gradle/caches/transforms-3/a2694d914d80ec2957e14bd0377ecda5/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zull/.gradle/caches/transforms-3/65425170acd6ef94f3e95e4450bb9c9b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/zull/.gradle/caches/transforms-3/6cfa26d8a5a89972dab61fe099970cb8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zull/.gradle/caches/transforms-3/26b955c7e289d13afe7521c218196f7a/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:5:5-67
+MERGED from [:netguard-okhttp] /home/zull/Desktop/Workspace/netguard-sdk/netguard-okhttp/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-okhttp] /home/zull/Desktop/Workspace/netguard-sdk/netguard-okhttp/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-security] /home/zull/Desktop/Workspace/netguard-sdk/netguard-security/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-security] /home/zull/Desktop/Workspace/netguard-sdk/netguard-security/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-67
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:6:5-79
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-79
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:7:5-76
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-76
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:8:5-79
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:10:5-30:19
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:10:5-30:19
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-25:19
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-24:19
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.android.material:material:1.11.0] /home/zull/.gradle/caches/transforms-3/0b3ac08e34365a77eb224fd5715f1b87/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/zull/.gradle/caches/transforms-3/0b3ac08e34365a77eb224fd5715f1b87/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zull/.gradle/caches/transforms-3/6818d493069ea4d592a832b629ab4130/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zull/.gradle/caches/transforms-3/6818d493069ea4d592a832b629ab4130/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zull/.gradle/caches/transforms-3/337e8c5f1bbf78cad4eae504c5d835e7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zull/.gradle/caches/transforms-3/337e8c5f1bbf78cad4eae504c5d835e7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:17:9-52
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:11:9-42
+activity#io.github.shaharzohar.netguard.sample.MainActivity
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:23:13-45
+	android:exported
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+MERGED from [:netguard-okhttp] /home/zull/Desktop/Workspace/netguard-sdk/netguard-okhttp/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-okhttp] /home/zull/Desktop/Workspace/netguard-sdk/netguard-okhttp/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] /home/zull/.gradle/caches/transforms-3/92279dec12927db4e902e343c4493f01/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] /home/zull/.gradle/caches/transforms-3/92279dec12927db4e902e343c4493f01/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-captive-portal] /home/zull/Desktop/Workspace/netguard-sdk/netguard-captive-portal/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-wifi] /home/zull/Desktop/Workspace/netguard-sdk/netguard-wifi/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-security] /home/zull/Desktop/Workspace/netguard-sdk/netguard-security/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-security] /home/zull/Desktop/Workspace/netguard-sdk/netguard-security/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/zull/.gradle/caches/transforms-3/0b3ac08e34365a77eb224fd5715f1b87/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/zull/.gradle/caches/transforms-3/0b3ac08e34365a77eb224fd5715f1b87/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zull/.gradle/caches/transforms-3/6818d493069ea4d592a832b629ab4130/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/zull/.gradle/caches/transforms-3/6818d493069ea4d592a832b629ab4130/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zull/.gradle/caches/transforms-3/4e60907f28aff8379ef554c06e002b7f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/zull/.gradle/caches/transforms-3/4e60907f28aff8379ef554c06e002b7f/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zull/.gradle/caches/transforms-3/16fe8e0dd29f3126e8d84141d33420a9/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/zull/.gradle/caches/transforms-3/16fe8e0dd29f3126e8d84141d33420a9/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zull/.gradle/caches/transforms-3/0cb337fab43935441238de1a2625e752/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/zull/.gradle/caches/transforms-3/0cb337fab43935441238de1a2625e752/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zull/.gradle/caches/transforms-3/c05f0ce9dfcff173cdd0c597b9e0dfeb/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/zull/.gradle/caches/transforms-3/c05f0ce9dfcff173cdd0c597b9e0dfeb/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zull/.gradle/caches/transforms-3/2efe9219e95c572b1931a90594f6cc18/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/zull/.gradle/caches/transforms-3/2efe9219e95c572b1931a90594f6cc18/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zull/.gradle/caches/transforms-3/9a4eaff3ad878b522e580dee72205120/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/zull/.gradle/caches/transforms-3/9a4eaff3ad878b522e580dee72205120/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/zull/.gradle/caches/transforms-3/cf8049a2db34bee91a30c103bdecdb43/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/zull/.gradle/caches/transforms-3/cf8049a2db34bee91a30c103bdecdb43/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zull/.gradle/caches/transforms-3/36c3ad81f8d8076d3a6123eaf69a762a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/zull/.gradle/caches/transforms-3/36c3ad81f8d8076d3a6123eaf69a762a/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zull/.gradle/caches/transforms-3/4d061f87c5fdc30868c9e0ccde373879/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/zull/.gradle/caches/transforms-3/4d061f87c5fdc30868c9e0ccde373879/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zull/.gradle/caches/transforms-3/6cd07588cd929e68e3433aac9795fb58/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/zull/.gradle/caches/transforms-3/6cd07588cd929e68e3433aac9795fb58/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/zull/.gradle/caches/transforms-3/050b6ddbca88667649ff5c1e4c0e7b05/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/zull/.gradle/caches/transforms-3/050b6ddbca88667649ff5c1e4c0e7b05/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zull/.gradle/caches/transforms-3/045885920a5f28ecd8ea88e40fd81d9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/zull/.gradle/caches/transforms-3/045885920a5f28ecd8ea88e40fd81d9a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zull/.gradle/caches/transforms-3/4f7d6c8c48b88170f9f11f68fe5f758d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/zull/.gradle/caches/transforms-3/4f7d6c8c48b88170f9f11f68fe5f758d/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zull/.gradle/caches/transforms-3/296f37aaddf10b481fde6e2d010ba526/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/zull/.gradle/caches/transforms-3/296f37aaddf10b481fde6e2d010ba526/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zull/.gradle/caches/transforms-3/7e09c99b9a51e6a663351ef91fac6e5f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/zull/.gradle/caches/transforms-3/7e09c99b9a51e6a663351ef91fac6e5f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zull/.gradle/caches/transforms-3/2764de394946a894b3ab5baaf5f83be4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/zull/.gradle/caches/transforms-3/2764de394946a894b3ab5baaf5f83be4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/zull/.gradle/caches/transforms-3/1f39ee7e8c75aa6b3e4397ad039c609f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/zull/.gradle/caches/transforms-3/1f39ee7e8c75aa6b3e4397ad039c609f/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zull/.gradle/caches/transforms-3/2c0262ff9305d9c8462a4780fd606235/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/zull/.gradle/caches/transforms-3/2c0262ff9305d9c8462a4780fd606235/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zull/.gradle/caches/transforms-3/c9eb4eddbf88644ce571787444304295/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/zull/.gradle/caches/transforms-3/c9eb4eddbf88644ce571787444304295/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/1652508dff11390d3bfbe68190d13926/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/1652508dff11390d3bfbe68190d13926/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/zull/.gradle/caches/transforms-3/a47b27427c4336e997d9febd32150c19/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/zull/.gradle/caches/transforms-3/a47b27427c4336e997d9febd32150c19/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/zull/.gradle/caches/transforms-3/813011cc99bf333157c65649bfae415c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/zull/.gradle/caches/transforms-3/813011cc99bf333157c65649bfae415c/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/zull/.gradle/caches/transforms-3/47b0b951f276f7dc04597017cf73e8ce/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/zull/.gradle/caches/transforms-3/47b0b951f276f7dc04597017cf73e8ce/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/zull/.gradle/caches/transforms-3/3f542b6eeb0079fb40d5fd645823a9d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/zull/.gradle/caches/transforms-3/3f542b6eeb0079fb40d5fd645823a9d2/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/55fe634019bba7c4292bfe4453f9c96f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/55fe634019bba7c4292bfe4453f9c96f/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/0c83b55a74954b63a59cd10ee911dd13/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/zull/.gradle/caches/transforms-3/0c83b55a74954b63a59cd10ee911dd13/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/zull/.gradle/caches/transforms-3/12fe3fde419c176cc1231071a8cc7015/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/zull/.gradle/caches/transforms-3/12fe3fde419c176cc1231071a8cc7015/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zull/.gradle/caches/transforms-3/1136699dd1a812a4104f43550dbf3d01/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/zull/.gradle/caches/transforms-3/1136699dd1a812a4104f43550dbf3d01/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/zull/.gradle/caches/transforms-3/bfd83cfac49f200a754f51f1fe45b6aa/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/zull/.gradle/caches/transforms-3/bfd83cfac49f200a754f51f1fe45b6aa/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zull/.gradle/caches/transforms-3/0495352de76a2d9147877105871a1763/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/zull/.gradle/caches/transforms-3/0495352de76a2d9147877105871a1763/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zull/.gradle/caches/transforms-3/b02562dc9043d486e367c11a996576dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/zull/.gradle/caches/transforms-3/b02562dc9043d486e367c11a996576dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zull/.gradle/caches/transforms-3/38ea6c2407964a2a8436b8a92ea73f32/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/zull/.gradle/caches/transforms-3/38ea6c2407964a2a8436b8a92ea73f32/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zull/.gradle/caches/transforms-3/b24d3d0537cfa7f807072337ed89fc78/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/zull/.gradle/caches/transforms-3/b24d3d0537cfa7f807072337ed89fc78/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/zull/.gradle/caches/transforms-3/212dc1a14704c9083ace685d452d0a43/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/zull/.gradle/caches/transforms-3/212dc1a14704c9083ace685d452d0a43/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/zull/.gradle/caches/transforms-3/5c207f35795866511b10293061f18276/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/zull/.gradle/caches/transforms-3/5c207f35795866511b10293061f18276/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zull/.gradle/caches/transforms-3/e2d3d7cedae91e984a7997fa17f17de3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/zull/.gradle/caches/transforms-3/e2d3d7cedae91e984a7997fa17f17de3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zull/.gradle/caches/transforms-3/337e8c5f1bbf78cad4eae504c5d835e7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/zull/.gradle/caches/transforms-3/337e8c5f1bbf78cad4eae504c5d835e7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zull/.gradle/caches/transforms-3/a2694d914d80ec2957e14bd0377ecda5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/zull/.gradle/caches/transforms-3/a2694d914d80ec2957e14bd0377ecda5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zull/.gradle/caches/transforms-3/65425170acd6ef94f3e95e4450bb9c9b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/zull/.gradle/caches/transforms-3/65425170acd6ef94f3e95e4450bb9c9b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/zull/.gradle/caches/transforms-3/6cfa26d8a5a89972dab61fe099970cb8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/zull/.gradle/caches/transforms-3/6cfa26d8a5a89972dab61fe099970cb8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zull/.gradle/caches/transforms-3/26b955c7e289d13afe7521c218196f7a/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/zull/.gradle/caches/transforms-3/26b955c7e289d13afe7521c218196f7a/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/zull/Desktop/Workspace/netguard-sdk/sample/src/main/AndroidManifest.xml
+activity#io.github.shaharzohar.netguard.traffic.ui.TrafficLogActivity
+ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:61
+	android:label
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-44
+	android:exported
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-58
+	android:name
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-88
+provider#androidx.core.content.FileProvider
+ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
+	android:grantUriPermissions
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
+	android:authorities
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-73
+	android:exported
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:63
+	android:resource
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-60
+	android:name
+		ADDED from [:netguard-traffic] /home/zull/Desktop/Workspace/netguard-sdk/netguard-traffic/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+provider#androidx.startup.InitializationProvider
+ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/zull/.gradle/caches/transforms-3/430465211d87aee88a01d1cc23d500c2/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-31
+	android:authorities
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-68
+	android:exported
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-67
+meta-data#io.github.shaharzohar.netguard.core.internal.NetGuardInitializer
+ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:52
+	android:value
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-49
+	android:name
+		ADDED from [:netguard-core] /home/zull/Desktop/Workspace/netguard-sdk/netguard-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-96
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/zull/.gradle/caches/transforms-3/2d89168d46d59005ed3ddd6b93426bd5/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#io.github.shaharzohar.netguard.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#io.github.shaharzohar.netguard.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/zull/.gradle/caches/transforms-3/f9f215bfae8ba9400600efb0fd083008/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/zull/.gradle/caches/transforms-3/2a54d8817c2d4c585ec559c1a000e636/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/zull/.gradle/caches/transforms-3/b15e00c575b45d974fadb31991ddcfe7/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/zull/.gradle/caches/transforms-3/07a37be43b0c12865454af8f22271c74/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

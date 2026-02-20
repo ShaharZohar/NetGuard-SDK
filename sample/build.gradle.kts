@@ -46,6 +46,7 @@ dependencies {
     debugImplementation(project(":netguard-traffic"))
     debugImplementation(project(":netguard-wifi"))
     debugImplementation(project(":netguard-okhttp"))
+    debugImplementation(project(":netguard-security"))
 
     // Release: Use no-op variants
     releaseImplementation(project(":netguard-core-no-op"))
